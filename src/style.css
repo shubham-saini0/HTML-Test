@@ -1,38 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #main{
     color:white;
+    border-radius:10px;
+    width:209px;
     overflow:hidden;
+    margin:auto;
 }
+
 #top{
     background-color: rgb(37, 32, 32);
+    overflow: hidden;
+    width:209px;
+    height:80px;
 }
-#rad{
-    background-color: black;
-}
+
 #top p{
     float:right;
     margin:0px;
-    font-size: large;
-}
-ul{
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-}
-#ir1{
-    background-color: rgb(49, 48, 48);
-}
-#ir2{
-   background-color: rgb(114, 109, 109); 
+    font-size:25px;
+    position:relative;
+    top:50%;
+    right:10px;
+    font-weight:bolder;
 }
 
-#y1{
-background-color: yellowgreen;
-}
-#row1 ul,#row2 ul,#row3 ul,#row4 ul,#row5 ul{
-    text-decoration: none;;
-    float:left;
-    width:20%;
-    padding-inline-start: 0%;;
+input{
+    position:relative;
+    top:5px;
+    left:5px;
 }
 
 #body{
@@ -40,18 +39,35 @@ background-color: yellowgreen;
     margin:0px;
 }
 
-#row1{
-    overflow:hidden;
+#row1,#row2,#row3,#row4,#row5{
+     overflow:hidden;
+     height:40px;
+     font-size:0;
 }
-#row2{
-    overflow:hidden;
+
+.t1{
+    width:92px !important;
 }
-#row3{
-    overflow:hidden;
+
+
+.y1{
+    background-color: gray;
 }
-#row4{
-    overflow:hidden;
+
+.y2{
+    background-color: green;
 }
-#row5{
+
+span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    padding:5px;
+    text-align:center;
+    margin:0px;
     overflow:hidden;
+    font-size:14px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;;
 }
